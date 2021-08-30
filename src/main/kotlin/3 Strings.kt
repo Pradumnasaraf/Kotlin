@@ -20,7 +20,7 @@ fun main() {
  var mySub =""
 
  // TODO Here we want to print "Pradumna"
- mySub = myString1.substring(17..24)
+ mySub = myString1.substring(17..24) // we can simply we .. to tell the range
  println(mySub)
 
 

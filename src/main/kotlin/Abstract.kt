@@ -28,13 +28,9 @@ open class E:D (){
 fun main() {
     //var myA =A() // Here this is not possible we can't create instance of an abstract class.
 
-    val myB =B()
-    myB.StringB
-
-    val myC =C()
-    myC.StringC
-
     val myE = E()
+
+    //
     myE.StringE
     myE.StringD // here abstract classes methods and attribute can be called.
 

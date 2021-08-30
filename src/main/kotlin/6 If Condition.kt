@@ -8,7 +8,7 @@ fun main() {
         println("x is not 2 or three")
     }
 
-    val y = if(x==2) "TWO" else "THREE" // we can use them as a expression and store them in a variable.
+    val y = if(x==2) "TWO" else "THREE" // we can also assign and store values to a variables based on condition
     println(y)
 
 }
